@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", function(){
 
 //listed below are the variables and calls for above functions
 	//Planets Array
-	var homePlanets = ["~~Choose Planet~~", "Mars", "Earth", "Pluto", "Vegas", 
+	var homePlanets = ["~~Allied Planets~~", "Earth", "Mars", "Pluto", "Vegas", 
 	"~~Relkin Group~~", "Turos", "Heisinkr", "Velarius"];
 	
 	//calls to functions
@@ -182,9 +182,9 @@ window.addEventListener("DOMContentLoaded", function(){
 	//Gets the correct image for the category being displayed.
 	function getImage(planName, sublist){
 		var imageLi = document.createElement('li');
-		sublist.appendChild('imageLi');
+		sublist.appendChild(imageLi);
 		var imageTag = document.createElement('img');
-		var setSource = imageTag.setAttribute("src", "images/" + planName + ".png");
+		var setSource = imageTag.setAttribute("src", "img/" + planName + ".png");
 		imageLi.appendChild(imageTag);
 	
 	};
