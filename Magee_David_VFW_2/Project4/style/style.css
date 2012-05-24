@@ -1,7 +1,14 @@
 /* David Magee, VFW 0512*/
 
 body {
-	background-color: #D8D8D8;
+	background-image: linear-gradient(bottom, rgb(217,217,217) 33%, rgb(138,138,138) 68%);
+	background-image: -o-linear-gradient(bottom, rgb(217,217,217) 33%, rgb(138,138,138) 68%);
+	background-image: -moz-linear-gradient(bottom, rgb(217,217,217) 33%, rgb(138,138,138) 68%);
+	background-image: -webkit-linear-gradient(bottom, rgb(217,217,217) 33%, rgb(138,138,138) 68%);
+	background-image: -ms-linear-gradient(bottom, rgb(217,217,217) 33%, rgb(138,138,138) 68%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(217,217,217)),
+		color-stop(0.68, rgb(138,138,138))
+);
 }
 
 h1 {
@@ -15,7 +22,14 @@ h1 {
 	text-transform: uppercase;
 	text-shadow: black 0.1em 0.1em 0.2em;
 	letter-spacing: .01em;
-	background-color: #006699;
+	background-image: linear-gradient(bottom, rgb(52,54,99) 33%, rgb(36,90,171) 68%);
+	background-image: -o-linear-gradient(bottom, rgb(52,54,99) 33%, rgb(36,90,171) 68%);
+	background-image: -moz-linear-gradient(bottom, rgb(52,54,99) 33%, rgb(36,90,171) 68%);
+	background-image: -webkit-linear-gradient(bottom, rgb(52,54,99) 33%, rgb(36,90,171) 68%);
+	background-image: -ms-linear-gradient(bottom, rgb(52,54,99) 33%, rgb(36,90,171) 68%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(52,54,99)),
+		color-stop(0.68, rgb(36,90,171))
+	);
 }
 
 p { 
@@ -68,15 +82,18 @@ div {
 	background-color: #0099CC;
 }
 
-img {
+/*img {
 	display: block;
-}
+}*/
 
 h2 {
 	margin: 10px 15px;
 	padding: 15px 5px;
 	border: 3px outset black;
 	background-color: #0099CC;
+	height: 95px;
 }
+
+/* background-color: #006699; for h1 , background-color: #D8D8D8; for body */
 
 
