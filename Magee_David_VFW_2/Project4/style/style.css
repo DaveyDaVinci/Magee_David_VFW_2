@@ -56,8 +56,27 @@ a{
 	a:visited {color:#00FF00;}
 }
 
-li {
+ul, li {
     font-size: 20px;
-    list-style-type: georgian;
+    list-style-type: none;
 }
+
+div {
+	border: 3px outset black;
+	margin: 10px 15px;
+	padding: 15px 5px;
+	background-color: #0099CC;
+}
+
+img {
+	display: block;
+}
+
+h2 {
+	margin: 10px 15px;
+	padding: 15px 5px;
+	border: 3px outset black;
+	background-color: #0099CC;
+}
+
 
